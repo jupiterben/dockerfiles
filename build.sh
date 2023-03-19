@@ -1,2 +1,2 @@
 
-docker build --tag sshd-ubuntu:latest --file ./sshd/sshd-ubuntu.dockerfile .
+docker build --tag dev-env:latest --file ./dev-en.dockerfile .
