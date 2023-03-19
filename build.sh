@@ -1,2 +1,2 @@
 
-docker build --tag dev-env:latest --file ./dev-en.dockerfile .
+docker build --tag dev-env:latest --file ./dev-env.dockerfile .

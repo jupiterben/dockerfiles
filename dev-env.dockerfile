@@ -3,8 +3,7 @@ MAINTAINER  jupiterben "https://github.com/jupiterben"
 
 RUN apt-get update
 
-RUN apt-get install -y openssh-server
-RUN apt-get install -y libatomic1
+RUN apt-get install -y openssh-server libatomic1
 RUN mkdir /var/run/sshd
 
 RUN echo 'root:root' |chpasswd
