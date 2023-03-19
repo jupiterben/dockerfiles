@@ -1,5 +1,2 @@
 
-
-
-
-docker build -t ssh-ubuntu -f ../sshd/ssh-ubuntu.dockerfiles
+docker build --tag sshd-ubuntu:latest --file ./sshd/sshd-ubuntu.dockerfile .
